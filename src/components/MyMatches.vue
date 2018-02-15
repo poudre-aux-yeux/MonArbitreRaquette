@@ -8,8 +8,7 @@
 
 <script>
 export default {
-    name: 'my-matches'
-
+  name: 'my-matches'
 }
 </script>
 
