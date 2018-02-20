@@ -83,6 +83,13 @@
           Au revoir
         </a>
       </li>
+      <li>
+        <a
+          href="#/my-maches"
+        >
+          Liste des matches
+        </a>
+      </li>
     </ul>
   </div>
 </template>

@@ -22,6 +22,11 @@ export default new Router({
       path: '/produits',
       name: 'Products',
       component: Products
+    },
+    {
+      path: '/my-matches',
+      name: 'MyMatches',
+      component: Products
     }
   ]
 })

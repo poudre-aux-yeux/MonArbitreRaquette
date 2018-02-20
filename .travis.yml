@@ -8,21 +8,12 @@ before_script:
 
 script:
   - yarn build
-  # On place les fichiers build dans un zip
-  # zip -r(le dossier et son contenu) [le nom du fichier qui va être créé distp.zip] [dossier ou fichier à zipper]
   - zip -r mon-arbitre-raquette dist
 
 deploy:
-  # déploiyer vers ce que je veux : ici les github releases (ca peut etre google cloud storage...)
-  # https://docs.travis-ci.com/user/deployment
   provider: releases
-  # Ne pas oublier de setup la $GITHUB_API_KEY
-  # https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
-  # Ajouter la clé générée à Travis dans "Environnement Variables : GITHUB_API_KEY // [Numéro de clé généré]"
   api_key: $GITHUB_API_KEY
   file: mon-arbitre-raquette.zip
-  # skip_cleanup : permet de ne pas supprimer lesip du script (après avoir exec le script il supprime tout d'habitude)
   skip_cleanup: true
-  # deployer que s'il y a un tag qui a été fait
   on:
     tags: true
