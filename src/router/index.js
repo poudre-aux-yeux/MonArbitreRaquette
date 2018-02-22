@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import GoodByeWorld from '@/components/GoodByeWorld'
 import Products from '@/components/Products'
+import TestPageJS from '@/components/TestPage'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/produits',
       name: 'Products',
       component: Products
+    },
+    {
+      path: '/test',
+      name: 'TestPage',
+      component: TestPageJS
     },
     {
       path: '/my-matches',
