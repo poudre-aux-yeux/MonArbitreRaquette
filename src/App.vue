@@ -1,8 +1,10 @@
 <template>
+<v-app>
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
   </div>
+</v-app>
 </template>
 
 <script>
@@ -12,8 +14,12 @@ export default {
 </script>
 
 <style>
+div {
+  background-image: "/src/assets/bg.png";
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
