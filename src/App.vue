@@ -14,9 +14,11 @@ export default {
 </script>
 
 <style>
-
 #main {
   background-image: url("./assets/bg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

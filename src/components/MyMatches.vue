@@ -15,13 +15,13 @@ export default {
     return {
       msg: 'Liste de mes matchs à arbitrer :'
     }
+  },
+
+  components: {
+    ListMatches
   }
 }
 </script>
 
 <style>
-.content {
-  background-image: url("../assets/bg.png");
-  background-size: cover;
-}
 </style>
