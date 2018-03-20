@@ -1,6 +1,6 @@
 <template>
 <v-app>
-  <div id="app">
+  <div id="main">
     <img src="./assets/logo.png">
     <router-view/>
   </div>
@@ -14,16 +14,14 @@ export default {
 </script>
 
 <style>
-div {
-  background-image: "/src/assets/bg.png";
-}
 
-#app {
+#main {
+  background-image: url("./assets/bg.png");
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffee00;
   margin-top: 60px;
 }
 </style>

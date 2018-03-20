@@ -7,8 +7,6 @@
 </template>
 
 <script>
-import ListMatches from './ListMatches'
-
 export default {
   name: 'MyMatches',
   data () {

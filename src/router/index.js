@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import GoodByeWorld from '@/components/GoodByeWorld'
 import Products from '@/components/Products'
 import TestPageJS from '@/components/TestPage'
+import MyMatches from '@/components/MyMatches'
 
 Vue.use(Router)
 
@@ -32,7 +33,7 @@ export default new Router({
     {
       path: '/my-matches',
       name: 'MyMatches',
-      component: Products
+      component: MyMatches
     }
   ]
 })
