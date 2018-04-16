@@ -7,5 +7,3 @@ RUN yarn
 RUN yarn build
 
 FROM nginx:1.13.9-alpine
-
-
