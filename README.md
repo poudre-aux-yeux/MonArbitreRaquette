@@ -1,4 +1,4 @@
-# monarbitreraquette
+# Mon Arbitre Raquette
 
 > little program to arbitre tennis match
 
@@ -37,7 +37,6 @@ A dependency defined in ./package-lock.json has known security vulnerabilities a
 - Find the right package to upgrade (use _up/down_ to select), _Space_ to select the package and _Enter_ to validate
 - Update
 - Run `yarn dev` to test the serve
-
 - If it still broken, run `git checkout .\package.json` to reverse changes in this file
 - Change only the dependancies associated to the bug on the right realese version in the _package.json_ file
 - Run `yarn` to update all dependancies then `yarn dev` to test the serve
