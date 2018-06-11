@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="matches">
       <h1>
-        {{ msg }}
+        {{ txt }}
       </h1>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   name: 'MyMatches',
   data () {
     return {
-      msg: 'Liste de mes matchs à arbitrer :'
+      txt: 'Liste de mes matchs à arbitrer :'
     }
   },
 
@@ -23,5 +23,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+h1 {
+  font-weight: normal;
+}
 </style>
