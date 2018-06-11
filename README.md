@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# when initialize the project at the first time
+yarn add vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-cache-inmemory graphql-tag
+
 # install dependencies
 yarn // npm install
 

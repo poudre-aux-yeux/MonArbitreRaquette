@@ -1,0 +1,12 @@
+query getPlayer ($id: Int!){
+    player (id: $id) {
+        name
+        image
+        nationality
+        weight
+        ranking
+        titles
+        birth
+        height
+    }
+}

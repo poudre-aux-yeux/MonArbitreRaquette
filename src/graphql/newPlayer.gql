@@ -1,0 +1,12 @@
+mutation newPlayer ($name: String!, $image: String!, $birth: Time!, $nationality: String!, $titles: Int!) {
+    createPlayer(player: {
+        name: $name,
+        image: $image,
+        birth: $birth,
+        nationality: $nationality,
+        titles: $titles
+        })
+        {
+        id
+    }
+}
