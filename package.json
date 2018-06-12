@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@mdi/font": "^2.4.85",
     "apollo-cache-inmemory": "^1.2.2",
     "apollo-client": "^2.3.2",
     "apollo-link": "^1.2.2",
@@ -20,10 +21,13 @@
     "axios": "^0.17.1",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
+    "mdi": "^2.2.43",
     "vue": "^2.5.2",
     "vue-apollo": "^3.0.0-beta.16",
+    "vue-material-design-icons": "^1.5.1",
     "vue-router": "^3.0.1",
-    "vuetify": "^1.0.3"
+    "vuetify": "^1.0.3",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

@@ -6,7 +6,8 @@
 
 ``` bash
 # when initialize the project at the first time
-yarn add vue-apollo graphql apollo-client apollo-link apollo-link-http apollo-cache-inmemory graphql-tag
+yarn add mdi @mdi/font vue-material-design-icons vuex
+yarn add graphql graphql-tag vue-apollo apollo-client apollo-link apollo-link-http apollo-cache-inmemory
 
 # install dependencies
 yarn // npm install
