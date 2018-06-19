@@ -1,0 +1,34 @@
+query getMatch ($id: ID!) {
+    match (id: $id) {
+        id
+        date
+        stadium {
+            name
+            city
+        }
+        homePlayers {
+            name
+            height
+            image
+            nationality
+            weight
+            ranking
+            titles
+            birth
+        }
+        awayPlayers {
+            name
+            height
+            image
+            nationality
+            weight
+            ranking
+            titles
+            birth
+        }
+        referee {
+            name
+            image
+        }
+    }
+}

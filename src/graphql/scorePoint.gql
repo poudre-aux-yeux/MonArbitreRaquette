@@ -1,0 +1,16 @@
+mutation ScorePoint(
+  $match: ID!,
+  $homeTeam: Boolean!
+) {
+  scorePoint(
+    point: {
+      matchID: $match,
+      team: $homeTeam
+    }
+  ) {
+    match {
+      id
+    }
+    team
+  }
+}
