@@ -1,6 +1,6 @@
-# Mon Arbitre Raquette
+# RefeGreen
 
-> little program to arbitre tennis match
+> Little program to arbitre tennis matches
 
 ## Build Setup
 
